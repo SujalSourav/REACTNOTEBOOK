@@ -10,7 +10,7 @@ import Login from './Component/Login.js';
 import Signup from './Component/Signup.js';
 const router=createBrowserRouter([
   {
-    path:"/home",
+    path:"/",
     element:<><Navbar/><Alert/><Home/></>
   },
   {
