@@ -31,7 +31,7 @@ export default function Login() {
             //save the auth token and redirect
             localStorage.setItem('token',json.usertoken)
             showalert("Logged In Successfully","success")
-            navigate('/home')
+            navigate('/')
         }
         else{
             showalert("Wrong Credentials","danger");
